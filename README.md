@@ -6,7 +6,7 @@
 * Lamoya Waldman
 * Samantha Sathaseevan
 
-## Content
+## Contents
 
 * [Project Overview and Purpose](#purpose--overview)
 * [Goals & Objectives](#goals--objectives)
