@@ -8,18 +8,18 @@
 
 ## Contents
 
-* [Project Overview and Purpose](#purpose--overview)
+* [Project Overview & Purpose](#project-overview--purpose)
 * [Goals & Objectives](#goals--objectives)
 * [Methodology](#methodology)
 * [Data Preparation](#data-preparation)
 * [Exploratory Data Analysis](#exploratory-data-analysis)
-* [Risks, Limitations, and Unknowns](#risks-limitations-and-unknowns)
+* [Risks, Limitations, & Unknowns](#risks-limitations--unknowns)
 * [Regression Analysis](#regression-analysis)
 * [Conclusions & Discussion](#conclusions--discussion)
 
 ---
 
-## Project Overview and Purpose
+## Project Overview & Purpose
 
 **Source:** [UCI Machine Learning Repository - Early Stage Diabetes Risk Prediction Data](https://archive.ics.uci.edu/dataset/529/early+stage+diabetes+risk+prediction+dataset)
 
