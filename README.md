@@ -181,7 +181,7 @@ The dataset consists of 192 (~37%) Female and 328 (~63%) Male participants, reve
 
 
 
-<img src="images/correlation_matrix.png" style="width:50%;">
+<img src="images/correlation_matrix.png" style="width:60%;">
 
 #### Figure 3: Correlation Matrix of Symptom Variables
 The binary variables were numerically encoded to examine their interrelationships through a correlation matrix. The analysis suggested notable positive associations (e.g. Polyuria, Polydipsia, and sudden weight loss) between several symptoms and the diabetes outcome variable. While correlation does not imply causation, these relationships support the hypothesis that symptom presentation is a meaningful basis for prediction.
@@ -202,7 +202,7 @@ The scatterplot of Age and Diabetes Classification by Gender illustrates how bot
 
 
 
-<img src="images/overall_symptom_prevelance.png" style="width:50%;">
+<img src="images/overall_symptom_prevelance.png" style="width:80%;">
 
 #### Figure 6: Overall Symptom Prevalence Among All Participants
 This bar chart shows the percentage of individuals reporting each symptom across the full dataset. Weakness, polyuria, and itching were the most commonly reported symptoms, whereas irritability, genital thrush, and obesity were least prevalent. These findings suggest that general fatigue and urinary changes are widespread in the population and may warrant closer investigation in diabetes risk screening.
@@ -223,14 +223,14 @@ This heatmap compares symptom frequencies between male and female participants w
 
 
 
-<img src="images/top_gender_differences_among_diabetic.png" style="width:50%;">
+<img src="images/top_gender_differences_among_diabetic.png" style="width:80%;">
 
 #### Figure 9: Top Gender-Based Differences among Diabetic Participants
 The chart displays the absolute percentage difference in symptom prevalence between male and female individuals with diabetes. The largest disparities occur in alopecia, genital thrush, and partial paresis, indicating that dermatological and neuromuscular symptoms exhibit notable gender-specific patterns. Core metabolic symptoms such as polyuria, polydipsia, and weakness show minimal gender variation.
 
 
 
-<img src="images/sym_prev_status.png" style="width:50%;">
+<img src="images/sym_prev_status.png" style="width:80%;">
 
 #### Figure 10: Symptom Prevalence by Diabetes Status
 The bar chart displays the proportion of patients reporting each symptom, grouped by diabetes classification. Polyuria, Polydipsia, and Sudden Weight Loss show the strongest associations with diabetes-positive cases, with over 60% of diabetic patients experiencing these symptoms. In contrast, symptoms like Alopecia and Obesity are more evenly distributed or more prevalent among non-diabetic individuals. These findings suggest that a subset of symptoms may have higher predictive power for diabetes diagnosis. 
