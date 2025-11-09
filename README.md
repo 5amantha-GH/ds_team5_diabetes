@@ -165,7 +165,7 @@ All symptom-related variables and the outcome variable are recorded as binary ca
 
 **Method:** The data was assessed to identify and summarize key differences in demographic (i.e. age and gender) and grouped by gender and age using visualizations to highlight key relationships and find differences in each group.  
 
-**Findings:**
+#### Findings:
 ![Diabetes Diagnosis Outcomes](images/diabetes_diagnoses.png)
 #### Figure 1: Diabetes Diagnosis Outcomes
 An evaluation of the response variable: class, revealed a moderate class imbalance. Of the 520 participants in the dataset, 320 (~62%) were classified as Positive for diabetes, while 200 (~38%) were classified as Negative. Although not severely imbalanced, this distribution suggests the need for careful model evaluation. Metrics such as precision and recall may provide a more accurate assessment of model performance than accuracy alone. Additionally, extra care should be taken when interpreting model accuracy and sensitivity, particularly for underrepresented groups.
