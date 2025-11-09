@@ -183,7 +183,7 @@ The dataset consists of 192 (~37%) Female and 328 (~63%) Male participants, reve
 
 <img src="images/correlation_matrix.png" style="width:60%;">
 
-#### Figure 3: Correlation Matrix of Symptom Variables
+#### Figure 3: Correlation Matrix of Predictor Variables
 The binary variables were numerically encoded to examine their interrelationships through a correlation matrix. The analysis suggested notable positive associations (e.g. Polyuria, Polydipsia, and sudden weight loss) between several symptoms and the diabetes outcome variable. While correlation does not imply causation, these relationships support the hypothesis that symptom presentation is a meaningful basis for prediction.
 
 
