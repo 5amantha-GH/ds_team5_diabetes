@@ -290,4 +290,10 @@ Other possible predictors of diabetes: Literature has shown that race/ethnicity,
 1. Clone the repository:
 ```bash
 git clone https://github.com/kristycy-yiu/ds_team5_diabetes.git
+cd ds_team5_diabetes
+```
 
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
