@@ -190,7 +190,7 @@ The dataset consists of 192 (~37%) Female and 328 (~63%) Male participants, reve
 
 
 <p align="center">
-<img src="images/age_distribution.png" style="width:50%;">
+<img src="images/age_distribution.png" style="width:70%;">
 
 #### Figure 3: Age Distribution
 The age distribution in the dataset spans from 16 to 90 years. However, most participants fall between 35 and 60 years old, with fewer cases below 30 and above 70. The mean age is approximately 48 years with a median of 47.5 suggesting a fairly symmetric distribution centered around middle adulthood. The standard deviation of 12.15 years suggests moderate variability in age, with no indication of extreme outliers. This broad and balanced age spread is advantageous for our analysis as diabetes risk is known to increase with age and the inclusion of a wide age range improves the generalizability of our findings. In addition, this distribution aligns with the clinical understanding that early-stage diabetes is more prevalent among middle-aged adults, reinforcing the suitability of this dataset for studying early detection risk factors.
