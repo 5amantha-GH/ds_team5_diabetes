@@ -197,7 +197,7 @@ The age distribution in the dataset spans from 16 to 90 years. However, most par
 
 
 <p align="center">
-<img src="images/age_gender_class.png" style="width:50%;">
+<img src="images/age_gender_class.png" style="width:70%;">
 
 #### Figure 4: Age and Diabetes Classification by Gender
 The scatterplot of Age and Diabetes Classification by Gender illustrates how both males and females are affected across similar age ranges, although there are more male participants overall. Preliminary patterns suggest that age may interact differently with gender in predicting diabetes onset. For instance, females show a slightly higher concentration of positive diagnoses at younger ages compared to males, which could warrant further investigation into gender-specific risk factors and symptom presentation. Moreover, positive diagnoses appear more concentrated in individuals between 40 and 55 years old, which may point to midlife as a key period for the onset of diabetes symptoms in both genders.
