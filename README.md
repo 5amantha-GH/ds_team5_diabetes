@@ -264,6 +264,8 @@ Other possible predictors of diabetes: Literature has shown that race/ethnicity,
 
 
 ### Visualizations
+
+#### SHAP Analysis
 To enhance interpretability of the model, SHAP (SHapley Additive exPlanations) was applied to our logistic regression model. SHAP values allowed us to identify which symptoms and demographic factors had the greatest overall impact on predictions, shown through a global feature-importance plot and a beeswarm plot as shown below:
 
 <p align="center">
