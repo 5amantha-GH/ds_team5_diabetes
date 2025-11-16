@@ -268,7 +268,7 @@ AUC (Area Under Curve): 0.99
 Sensitivity (Recall for diabetic class): 92% 
 Specificity (Recall for non-diabetic class): 97% 
 <p align="center">
-<img src="images/ROC_curve.png" style="width:70%;">
+<img src="images/ROC_curve.PNG" style="width:70%;">
 
 
 The model demonstrates exceptional discriminative ability, with an Area Under the Curve (AUC) of 0.99. This indicates near-perfect classification performance, meaning the model can accurately distinguish between the positive and negative classes with minimal error
