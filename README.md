@@ -30,11 +30,11 @@ This project uses the Early Stage Diabetes Risk Prediction dataset to explore an
 **Business Problem:** 
 Diabetes is a rapidly growing public health and economic challenge, driving substantial long-term costs for healthcare systems due to complications, hospitalizations, and chronic disease management. Early detection and intervention are critical to reducing these burdens, yet many cases of early-stage diabetes go undiagnosed until symptoms become severe.
 
-A key obstacle in achieving timely diagnosis is the lack of gender-sensitive risk assessment tools. Current screening models and predictive algorithms often treat male and female patients as a single homogeneous group, overlooking potential differences in how symptoms present and progress across genders. This one-size-fits-all approach may result in delayed identification of at-risk individuals, inefficient resource utilization, and missed opportunities for early preventive care.
+A key obstacle in achieving timely diagnosis is the lack of gender-sensitive risk assessment tools. Current screening models and predictive algorithms often treat male and female patients as a single homogeneous group, overlooking potential differences in how symptoms present and progress across genders. This one-size-fits-all approach may result in delayed identification of at-risk patients, inefficient resource utilization, and missed opportunities for early preventive care.
 
 This project addresses this gap by using the Early Stage Diabetes Risk Prediction dataset to explore and identify gender-based differences in the predictors of early-stage diabetes. Understanding how symptom patterns vary between men and women can help primary care providers and healthcare organizations:
 * Develop more precise screening models that tailor risk prediction to patient demographics.
-* Improve triage and follow-up protocols for individuals presenting with early diabetes symptoms.
+* Improve triage and follow-up protocols for patients presenting with early diabetes symptoms.
 * Reduce long-term healthcare costs by enabling earlier, gender-informed interventions that prevent complications.
   
 By uncovering actionable insights into gender differences in symptom presentation, this analysis supports evidence-based decision-making and strengthens healthcare systems’ ability to deliver proactive, personalized, and cost-effective diabetes management strategies.
@@ -106,12 +106,135 @@ Publication date: within last 5 years
 Language: English
 Number of search results: 65
 
-Search #3 also did not yield sufficient relevant results so Search #4 will be developed and presented in the final submission. 
+Search #4 
+Database: PubMed
+Search terms: 
+("Diabetes Mellitus, Type 2"[Mesh]) 
+AND ("early-onset"[Title/Abstract] OR "premature"[Title/Abstract] OR "middle-aged"[Mesh] OR "adult"[Mesh]) 
+AND ("Risk Factors"[Mesh] OR predictor*[Title/Abstract] OR "clinical features"[Title/Abstract] OR determinants[Title/Abstract] OR "associated factors"[Title/Abstract]) 
+AND (Age[Mesh] OR "Sex Characteristics"[Mesh] OR "Obesity"[Mesh] OR "Body Mass Index"[Mesh] OR polyuria[Title/Abstract] OR polydipsia[Title/Abstract] OR "sudden weight loss"[Title/Abstract] OR weakness[Title/Abstract] OR polyphagia[Title/Abstract])
+AND ("cohort study"[Publication Type] OR "case-control study"[Publication Type] OR "observational study"[Publication Type])
+Publication date: within last 5 years
+Language: English
+Number of search results: 192 (2015-2025)
+
+Search #5
+Database: Google Scholar
+Search terms: diabetes, polyuria, predictor
+Publication date: since 2021
+Language: English
+Number of search results: 10,200
+
+Search #6
+Database: Google Scholar
+Search terms: diabetes, polyuria, predictor, correlation
+Publication date: since 2021
+Language: English
+Number of search results: 6,320
+
+Search #7
+Database: Google Scholar
+Search terms: diabetes, sudden weight loss, association, correlation
+Publication date: since 2021
+Language: English
+Number of search results: 16,300
+
+Search #8
+Database: Google Scholar
+Search terms: diabetes, weakness, association, correlation
+Publication date: since 2021
+Language: English
+Number of search results: 17,400
+
+Search #9
+Database: Google Scholar
+Search terms: diabetes, polyphagia, association, correlation
+Publication date: since 2021
+Language: English
+Number of search results: 2,600
+
+Search #10
+Database: Google Scholar
+Search terms: diabetes, genital thrush, association, correlation
+Publication date: since 2021
+Language: English
+Number of search results: 16,300
+
+Search #11
+Database: Google Scholar
+Search terms: diabetes, visual blurring, association, correlation
+Publication date: since 2021
+Language: English
+Number of search results: 17,700
+
+Search #12
+Database: Google Scholar
+Search terms: diabetes, itching, association, correlation
+Publication date: since 2021
+Language: English
+Number of search results: 17,900
+
+Search #13
+Database: Google Scholar
+Search terms: diabetes, irritability, association, correlation
+Publication date: since 2021
+Language: English
+Number of search results: 18,100
+
+Search #14
+Database: Google Scholar
+Search terms: diabetes, delayed healing, association, correlation
+Publication date: since 2021
+Language: English
+Number of search results: 17,100
+
+Search #15
+Database: Google Scholar
+Search terms: diabetes, partial paresis, association, correlation
+Publication date: since 2021
+Language: English
+Number of search results: 17,300
+
+Search #16
+Database: Google Scholar
+Search terms: diabetes, muscle stiffness, association, correlation
+Publication date: since 2021
+Language: English
+Number of search results: 17,200
+
+Search #17
+Database: Google Scholar
+Search terms: diabetes, alopecia, association, correlation
+Publication date: since 2021
+Language: English
+Number of search results: 13,400
+
+Search #18
+Database: Google Scholar
+Search terms: diabetes, obesity, association, correlation
+Publication date: since 2021
+Language: English
+Number of search results: 29,000
+
+The initial plan was to conduct a systematic literature search to identify all potential predictors of diabetes supported in prior research. However, even after refining the search strategy and applying publication date filters, the number of returned articles remained too high to be reviewed within the time frame of this project. As a result, we shifted our approach to search each predictor individually in combination with diabetes and gender. This provided us with targeted information on known associations and potential confounders for the variables in our analysis. Only the results of first 4 search strategies noted above were thoroughly reviewed. The remaining search strategies were performed solely to estimate the volume of literature and were not fully examined. To supplement this, we performed focused Google searches using each variable of interest paired with the terms "diabetes," "association," and "correlation," which allowed us to quickly identify relevant supporting information. These findings were synthesized and summarized in the table below.
+
+Table 1. Literature-Based Context and Theoretical Support for Early-Onset Variables
+
+| Variable           | Role               | Supporting Literature |
+|--------------------|--------------------|-----------------------|
+| Age                | Confounder         |Zhang et al., 2019(https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2019.00658/full?utm_source=chatgpt.com)|
+| Obesity            | Strong Association|Berumen et al., 2023(https://pubmed.ncbi.nlm.nih.gov/37291636/); Bener et al., 2016(https://pubmed.ncbi.nlm.nih.gov/27381964/); Wohl et al., 2025(https://www.mdpi.com/2075-4426/15/1/16)|
+| Obesity            | Confounder         |Canter and Calabellero, 2012(https://www.sciencedirect.com/science/article/pii/S2161831322010249)|
+| Polyuria           | Strong Association |Kaliappan et al., 2024(https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2024.1421751/full)|
+| Polydipsia         | Strong Association |Kaliappan et al., 2024(https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2024.1421751/full) |
+| Sudden weight loss | Strong Association | Anggraini et al., 2024(https://hal.science/hal-05121048/)
+
+Confounders are included as required control in adjusted models and excluded in unadjusted models. Variables with strong associations are included in all models.
 
 ### Descriptive and Exploratory Data Analysis
 Exploratory data analysis will be conducted to understand the demographic and clinical characteristics of the population.
 - Descriptive statistics: Summarize key variables (e.g., mean age, gender distribution, and prevalence of each symptom).
-- Cross-tabulations: Compare symptom frequencies between diabetic and non-diabetic individuals, as well as across genders.
+- Cross-tabulations: Compare symptom frequencies between diabetic and non-diabetic participants, as well as across genders.
 - Visualization: Use pie charts, correlation matrix, bar plots, scatterplots, and heatmaps to identify potential patterns or correlations between symptoms and diabetes status.
 - Preliminary insights: Identify which symptoms appear most common or distinctive between males and females diagnosed with diabetes.
 
@@ -200,28 +323,28 @@ The age distribution in the dataset spans from 16 to 90 years. However, most par
 <img src="images/age_gender_class.png" style="width:70%;">
 
 #### Figure 4: Age and Diabetes Classification by Gender
-The scatterplot of Age and Diabetes Classification by Gender illustrates how both males and females are affected across similar age ranges, although there are more male participants overall. Preliminary patterns suggest that age may interact differently with gender in predicting diabetes onset. For instance, females show a slightly higher concentration of positive diagnoses at younger ages compared to males, which could warrant further investigation into gender-specific risk factors and symptom presentation. Moreover, positive diagnoses appear more concentrated in individuals between 40 and 55 years old, which may point to midlife as a key period for the onset of diabetes symptoms in both genders.
+The scatterplot of Age and Diabetes Classification by Gender illustrates how both males and females are affected across similar age ranges, although there are more male participants overall. Preliminary patterns suggest that age may interact differently with gender in predicting diabetes onset. For instance, females show a slightly higher concentration of positive diagnoses at younger ages compared to males, which could warrant further investigation into gender-specific risk factors and symptom presentation. Moreover, positive diagnoses appear more concentrated in participants between 40 and 55 years old, which may point to midlife as a key period for the onset of diabetes symptoms in both genders.
 
 
 <p align="center">
 <img src="images/overall_symptom_prevelance.png" style="width:70%;">
 
 #### Figure 5: Overall Symptom Prevalence Among All Participants
-This bar chart shows the percentage of individuals reporting each symptom across the full dataset. Weakness, polyuria, and itching were the most commonly reported symptoms, whereas irritability, genital thrush, and obesity were least prevalent. These findings suggest that general fatigue and urinary changes are widespread in the population and may warrant closer investigation in diabetes risk screening.
+This bar chart shows the percentage of participants reporting each symptom across the full dataset. Weakness, polyuria, and itching were the most commonly reported symptoms, whereas irritability, genital thrush, and obesity were least prevalent. These findings suggest that general fatigue and urinary changes are widespread in the population and may warrant closer investigation in diabetes risk screening.
 
 
 <p align="center">
 <img src="images/sym_prev_status.png" style="width:70%;">
 
 #### Figure 6: Symptom Prevalence by Diabetes Status
-The bar chart displays the proportion of patients reporting each symptom, grouped by diabetes classification. Polyuria, Polydipsia, and Sudden Weight Loss are most frequently observed amongst the diabetes-positive cases, with over 60% of diabetic patients experiencing these symptoms. Other symptoms such as sudden weight loss, weakness, and partial paresis are also notably elevated in diabetic individuals. The remaining variables show more even distributions or low variance, which may limit their predictive relevance. These findings suggest that a subset of symptoms may have higher predictive power for diabetes diagnosis.From the perspective of the business case, these results reinforce the importance of early recognition of metabolic and neurological symptoms in diabetes screening. 
+The bar chart displays the proportion of participants reporting each symptom, grouped by diabetes classification. Polyuria, Polydipsia, and Sudden Weight Loss are most frequently observed amongst the diabetes-positive cases, with over 60% of diabetic participants experiencing these symptoms. Other symptoms such as sudden weight loss, weakness, and partial paresis are also notably elevated in diabetic participants. The remaining variables show more even distributions or low variance, which may limit their predictive relevance. These findings suggest that a subset of symptoms may have higher predictive power for diabetes diagnosis.From the perspective of the business case, these results reinforce the importance of early recognition of metabolic and neurological symptoms in diabetes screening. 
 
 
 <p align="center">
 <img src="images/top_gender_differences_among_diabetic.png" style="width:70%;">
 
 #### Figure 7: Top Gender-Based Differences among Diabetic Participants
-The chart displays the absolute percentage difference in symptom prevalence between male and female individuals with diabetes. The largest disparities occur in alopecia, genital thrush, and partial paresis, indicating that dermatological and neuromuscular symptoms exhibit notable gender-specific patterns. Core metabolic symptoms such as polyuria, polydipsia, and weakness show minimal gender variation.
+The chart displays the absolute percentage difference in symptom prevalence between male and female participants with diabetes. The largest disparities occur in alopecia, genital thrush, and partial paresis, indicating that dermatological and neuromuscular symptoms exhibit notable gender-specific patterns. Core metabolic symptoms such as polyuria, polydipsia, and weakness show minimal gender variation.
 
 
 <p align="center">
@@ -232,28 +355,28 @@ This heatmap compares symptom frequencies between male and female participants w
 
 
 <p align="center">
-<img src="images/correlation_matrix.png" style="width:60%;">
+<img src="images/correlation_matrix.png" style="width:70%;">
 
 #### Figure 9: Correlation Matrix of Predictor Variables
 The binary variables were numerically encoded to examine their interrelationships through a correlation matrix. The analysis suggested notable positive associations (e.g. Polyuria, Polydipsia, and sudden weight loss) between several symptoms and the diabetes outcome variable. While correlation does not imply causation, these relationships support the hypothesis that symptom presentation is a meaningful basis for prediction.
 
 
 ### Summary 
-Overall, the exploratory analysis revealed meaningful demographic and clinical patterns in the Early Stage Diabetes Risk Prediction dataset. The population was moderately imbalanced by both diabetes status and gender, with a higher proportion of males and diabetes-positive participants. Middle-aged adults (ages 40–55) accounted for most diabetes cases, aligning with known epidemiological trends. Symptom analysis showed that polyuria, polydipsia, and weakness were the most prevalent indicators among individuals with diabetes, whereas irritability, alopecia, and obesity appeared least common. Gender-specific analyses further highlighted that females tended to report higher rates of sudden weight loss and partial paresis, while males more frequently reported genital thrush and alopecia. Collectively, these findings provide an initial understanding of how demographic and clinical features interact and suggest that gender may influence symptom presentation in early-stage diabetes, an insight that warrants deeper investigation through regression modeling.
+Overall, the exploratory analysis revealed meaningful demographic and clinical patterns in the Early Stage Diabetes Risk Prediction dataset. The population was moderately imbalanced by both diabetes status and gender, with a higher proportion of males and diabetes-positive participants. Middle-aged adults (ages 40–55) accounted for most diabetes cases, aligning with known epidemiological trends. Symptom analysis showed that polyuria, polydipsia, and weakness were the most prevalent indicators among participants with diabetes, whereas irritability, alopecia, and obesity appeared least common. Gender-specific analyses further highlighted that females tended to report higher rates of sudden weight loss and partial paresis, while males more frequently reported genital thrush and alopecia. Collectively, these findings provide an initial understanding of how demographic and clinical features interact and suggest that gender may influence symptom presentation in early-stage diabetes, an insight that warrants deeper investigation through regression modeling.
 
 ---
 
 ## Risks, Limitations, & Unknowns
 
 ### Risks
-Gender imbalance: With a higher number of male cases, the gender imbalance may lead to biased model predictions, risking reduced accuracy for female patients and difficulty in detecting subtle differences between genders. We will mitigate this risk using bootstrapping to oversample the underrepresented female cases to create a more balanced training set.
+Gender imbalance: With a higher number of male cases, the gender imbalance may lead to biased model predictions, risking reduced accuracy for female participants and difficulty in detecting subtle differences between genders. We will mitigate this risk using bootstrapping to oversample the underrepresented female cases to create a more balanced training set.
 
 Confounders: If confounders (e.g., BMI) are not accounted for, the model could be biased and lead to incorrect conclusions about gender differences. To mitigate this risk, we will analyze the subgroups of confounders separately.
 
 ### Limitations
 Data generalizability: The data may not be generalizable to the Canadian population as it is based on data collected in Sylhet, Bangladesh.
 
-Unclear definitions of clinical features: Clinical features including “sudden weight loss”, “weakness”, “partial paresis”, “irritability”, “delayed hearing”, “visual blurring”, and “itching” are not clearly defined in the dataset. Thresholds for these variables or standardized measurement scales are not provided, which limits our ability to determine their severity or to ensure consistent assessment across patients. This may limit our ability to provide appropriate recommendations regarding these factors. 
+Unclear definitions of clinical features: Clinical features including “sudden weight loss”, “weakness”, “partial paresis”, “irritability”, “delayed hearing”, “visual blurring”, and “itching” are not clearly defined in the dataset. Thresholds for these variables or standardized measurement scales are not provided, which limits our ability to determine their severity or to ensure consistent assessment across participants. This may limit our ability to provide appropriate recommendations regarding these factors. 
 
 ### Unknowns
 Other possible predictors of diabetes: Literature has shown that race/ethnicity, acculturation, tobacco smoking, education level, and marital status are also predictive of early onset diabetes. Without information on these variables in our dataset, it is unknown whether the clinical features that we’ve identified are the most significant predictors or if there are more prominent predictors that we have not yet explored.
@@ -261,21 +384,20 @@ Other possible predictors of diabetes: Literature has shown that race/ethnicity,
 ---
 
 ## Regression Analysis & Validation
-
+### Predictive Performance
 The logistic regression model achieved strong predictive performance:
-Accuracy: 94% 
-AUC (Area Under Curve): 0.99 
-Sensitivity (Recall for diabetic class): 92% 
-Specificity (Recall for non-diabetic class): 97% 
-<p align="center">
-<img src="images/ROC_curve.png" style="width:70%;">
+- Accuracy: 94% 
+- AUC (Area Under Curve): 0.99 
+- Sensitivity (Recall for diabetic class): 92% 
+- Specificity (Recall for non-diabetic class): 97% 
 
+<p align="center">
+<img src="images/ROC_curve.PNG" style="width:70%;">
 
 The model demonstrates exceptional discriminative ability, with an Area Under the Curve (AUC) of 0.99. This indicates near-perfect classification performance, meaning the model can accurately distinguish between the positive and negative classes with minimal error
 
 Feature importance analysis revealed that: polydipsia, polyuria, and irritability were the most influential predictors. The model demonstrated high interpretability, with clear directional effects for each feature. 
 
-## Regression Analysis & Validation
 ### Chi-Square Test
 | Variable           | Chi²       | p-value   |
 |--------------------|------------|-----------|
@@ -352,10 +474,7 @@ The p-value for the gender x polydipsia interaction term is not significant. The
 
 The p-value for the gender x irritability interaction term is not significant. The relationship between irritability and diabetes doesn't differ by gender meaningfully. The odds ratio (1.236) is very close to 1, indicating a small effect difference between genders.
 
-
-### Visualizations
-
-#### SHAP Analysis
+### SHAP Analysis
 To enhance interpretability of the model, SHAP (SHapley Additive exPlanations) was applied to our logistic regression model. SHAP values allowed us to identify which symptoms and demographic factors had the greatest overall impact on predictions, shown through a global feature-importance plot and a beeswarm plot as shown below:
 
 <p align="center">
@@ -368,6 +487,18 @@ This SHAP feature importance plot highlights which factors most strongly influen
 
 This SHAP (beeswarm) summary plot illustrates how each feature influences the model’s diabetes predictions, showing both the direction and strength of impact. Red points indicate high feature values that push predictions toward diabetes, while blue points represent low values that reduce risk. Polydipsia, gender, and polyuria stand out as the strongest predictors, with clear color separation demonstrating that high values for these features markedly increase predicted risk. Other symptoms such as itching, irritability, genital thrush, polyphagia, and partial paresis, also increase risk but with more moderate influence. Sudden weight loss, delayed healing, and muscle stiffness show smaller effects, while features like alopecia, weakness, visual blurring, obesity, and even age contribute little, with points clustered near zero. Overall, the model relies most heavily on a few key symptoms and the gender variable, with other features playing a more limited role.
 
+### Odds Ratio Forest Plot
+The odds ratio forest plot summarizes how each predictor is statistically associated with early-stage diabetes after adjusting for all other symptoms. Predictors with odds ratios above 1 increase the likelihood of diabetes, and those with confidence intervals fully above 1 are the most reliable indicators.
+
+<p align = "center">
+<img src="images/odds_ratio_forest_plot.png" style="width:50%;">
+
+The clearest predictors in the model are polydipsia and polyuria, both showing very large odds ratios with tight confidence intervals, confirming that excessive thirst and frequent urination are strong and statistically significant markers of diabetes. A second group of symptoms—including irritability, genital thrush, polyphagia, visual blurring, and partial paresis, also raise diabetes risk, though with more moderate effect sizes.
+
+Variables such as alopecia, weakness, and obesity have odds ratios close to 1, indicating they do not meaningfully influence diabetes likelihood once other symptoms are considered. A few predictors fall below 1, but these likely reflect dataset characteristics rather than true protective effects.
+
+The forest plot highlights which symptoms remain significant independent predictors in the adjusted model, complementing the SHAP results by focusing on statistical association rather than contribution to prediction.
+
 ---
 
 ## Conclusions & Discussion
@@ -375,7 +506,7 @@ The project successfully used the Early Stage Diabetes Risk Prediction dataset t
 
 Our initial plan was to compare symptom presentation across genders by fitting separate logistic regression models for male and female participants, and examining differences in coefficient magnitudes, odds ratios and statistical significance. We also aimed to formally test gender moderation by including interaction terms in a combined model. This approach would have allowed us to evaluate whether symptom patterns carry different predictive weight across genders. 
 
-However, we decided to revise our Business Problem by removing the focus on gender-based differences in early-onset diabetes symptom presentation. Given the time and data constraints, we determined that a stratified gender analysis would not be feasible. The gender imbalance in the dataset introduced complications during the female-only logistic regression, particularly when age was treated as a continuous predictor - several age values were absent within the female subgroup. This can lead to issues such as quasi-complete separation, unstable coefficient estimates and convergence failures in logistic models. Without sufficient cell counts (sparse data), the model cannot reliably estimate odds ratios, making any subgroup-specific interpretations statistically invalid. 
+However, we were unable to fully support the recommendations for our Business Problem as we were unable to verify our findings of gender-based differences in early-onset diabetes symptom presentation from our interaction model with a stratified model. Given the time and data constraints, we determined that a stratified gender analysis would not be feasible. The gender imbalance in the dataset introduced complications during the female-only logistic regression, particularly when age was treated as a continuous predictor - several age values were absent within the female subgroup and some age values were only associated with one outcome. This can lead to issues such as perfect and quasi-complete separation. Without sufficient cell counts (sparse data), the model cannot reliably estimate odds ratios, making any subgroup-specific interpretations statistically unreliable. 
 
 The next step for this analysis is to restructure the data before conducting the stratified logistic regression. Specifically, age would need to be converted from a continuous measure into categorical “bins” to ensure sufficient representation across age categories within each gender group. This step would help mitigate empty-cell issues.
 
@@ -391,6 +522,7 @@ Overall our analysis holds meaningful implications across the healthcare ecosyst
 - Holtz, Y. *The Python Graph Gallery*. https://python-graph-gallery.com/
 - Matplotlib. *Matplotlib 3.10.7 Documentation*. https://matplotlib.org/stable/api/matplotlib_configuration_api.html
 - Scikit-learn. *LogisticRegression*. https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html
+- Statsmodels.api. *Logit* https://www.statsmodels.org/stable/generated/statsmodels.formula.api.logit.html#statsmodels.formula.api.logit
 - University of Toronto Data Science Institute. https://github.com/UofT-DSI 
 
 ---
@@ -401,8 +533,12 @@ Overall our analysis holds meaningful implications across the healthcare ecosyst
 |----------------------|--------------------------------------------------|-------------------|
 | Kristy Yiu           | [@kristycy-yiu](https://github.com/kristycy-yiu) |                   |
 | Rebecca Laundos      | [@relaundos7](https://github.com/relaundos7)     |                   |
-| Lamoya Waldman       | [@LamoyaW](https://github.com/LamoyaW)           |https://drive.google.com/file/d/1h0k_N_IA-5NnywRN9cBMqSp2rw0cR-3U/view?usp=drive_link                |
+| Lamoya Waldman       | [@LamoyaW](https://github.com/LamoyaW)           |[Video](https://drive.google.com/file/d/1h0k_N_IA-5NnywRN9cBMqSp2rw0cR-3U/view?usp=drive_link)                |
 | Samantha Sathaseevan | [@5amantha-GH](https://github.com/5amantha-GH)   |                   |
+| Kristy Yiu           | [@kristycy-yiu](https://github.com/kristycy-yiu) |[Video](https://youtu.be/LIjicGQ38vw)|
+| Rebecca Laundos      | [@relaundos7](https://github.com/relaundos7)     |[Video](https://drive.google.com/file/d/1l7qt5KkO6h1vQ5czVVDL4gRDElDCn0HA/view?usp=sharing)|
+| Lamoya Waldman       | [@LamoyaW](https://github.com/LamoyaW)           |                   |
+| Samantha Sathaseevan | [@5amantha-GH](https://github.com/5amantha-GH)   |[Video](https://drive.google.com/file/d/1-H1rpG-8DhRHF1Tb0nOmCP5qQ8qt-Py-/view?usp=drive_link)|
 
 ---
 ## Installation & Environment Setup
