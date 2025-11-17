@@ -401,7 +401,7 @@ Overall our analysis holds meaningful implications across the healthcare ecosyst
 |----------------------|--------------------------------------------------|-------------------|
 | Kristy Yiu           | [@kristycy-yiu](https://github.com/kristycy-yiu) |                   |
 | Rebecca Laundos      | [@relaundos7](https://github.com/relaundos7)     |                   |
-| Lamoya Waldman       | [@LamoyaW](https://github.com/LamoyaW)           |                   |
+| Lamoya Waldman       | [@LamoyaW](https://github.com/LamoyaW)           |https://drive.google.com/file/d/1h0k_N_IA-5NnywRN9cBMqSp2rw0cR-3U/view?usp=drive_link                |
 | Samantha Sathaseevan | [@5amantha-GH](https://github.com/5amantha-GH)   |                   |
 
 ---
