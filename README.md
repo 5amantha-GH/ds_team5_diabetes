@@ -541,7 +541,7 @@ Overall our analysis holds meaningful implications across the healthcare ecosyst
 
 **1. Clone the repository:**
 ```bash
-git clone https://github.com/kristycy-yiu/ds_team5_diabetes.git
+git clone https://github.com/5amantha-GH/ds_team5_diabetes.git
 cd ds_team5_diabetes
 ```
 
